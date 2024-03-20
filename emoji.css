@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box; 
+}
+#cara{
+    width: 700px;
+    height: 700px;
+    background: yellow;
+    border: 3px solid black;
+    border-radius: 100%;
+    
+}
+#ojo1{
+    width: 100px;
+    height: 100px;
+    background: rgb(46, 27, 27);
+    border: 3px solid black;
+    border-radius: 100%;
+    position: relative;
+    bottom: 500px;
+    left: 100px;
+}
+#ojo2{
+    width: 100px;
+    height: 100px;
+    background: rgb(46, 27, 27);
+    border: 3px solid black;
+    border-radius: 100%;
+    position: relative;
+    bottom: 600px;
+    right:  100px;
+}
+#iris1{
+    width: 70px;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 100%;
+    position: relative;
+    bottom: 700px;
+    left: 100px;
+}
+#iris2{
+    width: 70px;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 100%;
+    position: relative;
+    bottom: 770px;
+    right:  100px;
+}
+#iris3{
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 100%;
+    position: relative;
+    bottom: 770px;
+    right:  100px;
+}
+#iris4{
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 100%;
+    position: relative;
+    bottom: 790px;
+    left:  100px;
+}
+#boca{
+    border: 2px solid black;
+    background: rgb(46, 27, 27);
+    width: 90px;
+    height: 20px;
+    border-radius: 10% ;
+   position: relative;
+   bottom: 660px;
+}
+#dialogo1{
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 100%;
+    position: relative;
+    bottom: 960px;
+    left:  300px;
+}#dialogo2{
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 100%;
+    position: relative;
+    bottom: 1020px;
+    left:  380px;
+}#dialogo3{
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 100%;
+    position: relative;
+    bottom: 1090px;
+    left:  450px;
+}
+#dialogo4{
+    border: 2px solid black;
+    background: white;
+    width: 250px;
+    height: 100px;
+    border-radius: 10% ;
+   position: relative;
+   bottom: 1200px;
+   left: 550px;
+}

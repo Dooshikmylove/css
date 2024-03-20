@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box; 
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 217, 0);
+    border: 30px dashed black;
+    box-shadow: 5px -10px 30px black;
+    margin: 100px;
+    padding: 50px;
+}
+#c1{
+    width: 300px;
+    height: 200px;
+    background: red;
+border: 30px dotted gray;
+margin: 100px;
+padding: 50px;
+}
+#c2{
+    width: 200px;
+    height: 200px;
+    background: rgb(10, 89, 95);
+    border: 30px double rgb(199, 123, 17);
+    margin: 100px;
+    padding: 50px;
+    }
+    #c3{
+        width: 260px;
+    height: 290px;
+    background: rgb(116, 7, 116);
+        border: 30px groove greenyellow
+        margin: 100px;
+        padding: 50px;
+        }
+        #c4{
+            width: 400px;
+    height: 360px;
+    background: rgb(32, 5, 23);
+            border: 30px ridge rgb(24, 186, 197);
+            margin: 100px;
+            padding: 50px;
+            }
+            #c5{
+                width: 50px;
+    height: 500px;
+    background: rgb(39, 141, 18);
+                border: 30px inset rgb(45, 23, 132);
+                margin: 100px;
+                padding: 50px;
+                }
+                #c6{
+                    width: 100px;
+    height: 100px;
+    background: rgb(0, 255, 68);
+                    border: 30px outset rgb(160, 7, 106);
+                    margin: 100px;
+                    padding: 50px;
+                    }
+                    #c7{
+                        width: 100px;
+    height: 230px;
+    background: rgb(219, 127, 127);
+                        border: 30px none gray;
+                        margin: 100px;
+                        padding: 50px;
+                        }
+                        #c8{
+                            width: 100px;
+        height: 230px;
+        background: rgb(99, 138, 16);
+                            border: 30px hidden rgb(60, 7, 133);
+                            margin: 100px;
+                            padding: 50px;
+                            }
+                            #c9{
+                                width: 100px;
+            height: 230px;
+            background: rgb(174, 43, 43);
+                                border: 30px solid rgb(155, 91, 244);
+                                margin: 100px;
+                                padding: 50px;
+                                }
+                                    

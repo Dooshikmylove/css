@@ -1,0 +1,39 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box; 
+}
+
+body{
+text-align:center;
+color: white;
+background: linear-gradient(90deg, rgb(216, 98, 98) 1%, rgb(101, 40, 120) 50%, rgb(58, 32, 206) 90%);
+}
+
+
+h1{
+    font-size: 60px;
+    text-shadow: 0 0 10px blue;
+}
+
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+    background: darkcyan;
+    border-radius: 5px ;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+a:hover{
+    box-shadow: 0 0 5px darkblue;
+    border: 1px solid white;
+    background: darkblue;
+    color: white;
+    transform: scale(1.2);
+}

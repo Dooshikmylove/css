@@ -1,0 +1,120 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box; 
+}
+h1{
+    color: indianred;
+}
+#j:hover{
+    transform: scale(1.1) translate(25);
+    background: linear-gradient(black 30%, red 50%, black 70%); 
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+#j1{
+    font-family: fantasy;
+    color: blueviolet;
+}
+#j2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: coral;
+}
+#j3{
+font-size: 100px;
+}
+#j4{
+font-style: italic;
+color: chocolate;
+}
+#j5{
+    font-style: oblique;
+    color: crimson;
+}
+#j6{
+    font-style: normal;
+    color: aqua;
+}
+#j7{
+font-weight: bold 900;
+color: darkgreen;
+}
+#j8{
+font-weight: bolder 900;
+color: darkgoldenrod;
+}
+#j9{
+font-weight: lighter 900;
+}
+#j10{
+text-transform: capitalize;
+    color: gray;
+}
+#j11{
+text-transform: lowercase;
+    color: hotpink;
+}
+#j12{
+text-transform: none;
+    color: goldenrod;
+}
+#j13{
+text-transform: inherit;
+    color: indigo;
+}
+#j14{
+text-decoration: none;
+    color: firebrick;
+}
+#j15{
+text-decoration: underline;
+}
+#j16{
+text-decoration: overline;
+    color: darkcyan;
+}
+#j17{
+text-decoration: line-through;
+    color: darkslategray;
+}
+#j18{
+text-shadow: 0 2px 5px black ;
+    color: gold;
+}
+#j19{
+text-shadow: -3px -3px 0px black;
+    color: maroon;
+}
+#t{
+text-align: left;
+line-height: 0.5;
+}
+#t2{
+text-align: right;
+line-height: 1;
+}
+#t3{
+text-align: justify;
+line-height: 2;
+}
+#t4{
+    text-align: center;
+    line-height: 3;
+}
+#j20{
+word-spacing: 10px;
+    color: lightsalmon;
+}
+#j21{
+letter-spacing: 10px;
+}
+#j22{
+letter-spacing: 50px;
+    color: tomato;
+}
+#j23{
+word-spacing: 50px;
+    color: springgreen;
+}

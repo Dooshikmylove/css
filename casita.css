@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#lienzo {
+    width: 1400px;
+    height: 700px;
+    background: linear-gradient(90deg, yellow 30%, orange 60%, red 90%);
+    margin: auto;
+    border: 3px solid black;
+}
+
+#nube1 {
+    width: 400px;
+    height: 100px;
+    border-radius: 40%;
+    background: white;
+    position: relative;
+    bottom: 650px;
+    left: 100px;
+}
+
+#nube1-1 {
+    width: 250px;
+    height: 150px;
+    border-radius: 100%;
+    background: white;
+    position: relative;
+    bottom: 770px;
+    left: 180px;
+}
+
+#nube2 {
+    width: 400px;
+    height: 100px;
+    border-radius: 40%;
+    background: white;
+    position: relative;
+    bottom: 900px;
+    left: 800px;
+}
+
+#nube2-1 {
+    width: 250px;
+    height: 150px;
+    border-radius: 100%;
+    background: white;
+    position: relative;
+    bottom: 1020px;
+    left: 880px;
+}
+
+#piso {
+    display: block;
+    width: 1400px;
+    height: 30px;
+    background: green;
+    position: relative;
+    bottom: 1050px;
+    left: 37px;
+}
+
+#sol {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border-radius: 100%;
+    position: relative;
+    bottom: 1150px;
+    left: 1300px;
+}
+
+#arbol1 {
+    width: 150px;
+    height: 150px;
+    background: rgb(5, 97, 33);
+    border-radius: 100%;
+    position: relative;
+    bottom: 1200px;
+    left: 1200px;
+}
+
+#arbol1-1 {
+    width: 90px;
+    height: 270px;
+    background: saddlebrown;
+    position: relative;
+    bottom: 870px;
+    left: 1230px;
+}
+
+#arbol2 {
+    width: 150px;
+    height: 150px;
+    background: rgb(5, 97, 33);
+    border-radius: 100%;
+    position: relative;
+    bottom: 1700px;
+    left: 80px;
+}
+
+#arbol2-1 {
+    width: 90px;
+    height: 270px;
+    background: saddlebrown;
+    position: relative;
+    bottom: 1322px;
+    left: 110px;
+}
+
+#casa {
+    width: 500px;
+    height: 300px;
+    background: deeppink;
+    position: relative;
+    bottom: 1770px;
+    left: 500px;
+}
+#puerta{
+    width: 100px;
+    height: 180px;
+    background: sienna;
+    position: relative;
+    bottom: 1950px;
+    left: 600px;
+}
+#techo{
+    width: 600px;
+    height: 50px;
+    background: burlywood;
+    position: relative;
+    bottom: 2300px;
+    left: 450px;
+}
+#ventana{
+    width: 200px;
+    height: 150px;
+    background: rgb(130, 202, 211);
+    position: relative;
+    bottom: 2250px;
+    left: 750px;
+}
+#cabeza{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: lightsalmon;
+    position: relative;
+    bottom: 2450px;
+    left: 300px;
+}
+#cuerpo{
+    width: 20px;
+    height: 100px;
+    background: darkred;
+    position: relative;
+    bottom: 2450px;
+    left: 340px;
+}
+#brazo1{
+    width: 20px;
+    height: 50px;
+    background: darkred;
+    rotate: 45deg;
+    position: relative;
+    bottom: 2540px;
+    left: 320px;
+}
+#brazo2{
+    width: 20px;
+    height: 50px;
+    background: darkred;
+    rotate: 135deg;
+    position: relative;
+    bottom: 2590px;
+    left: 360px;
+}
+#pierna1{
+    width: 20px;
+    height: 100px;
+    background: rgb(153, 92, 0);
+    rotate: 45deg;
+    position: relative;
+    bottom: 2570px;
+    left: 300px;
+}
+#pierna2{
+    width: 20px;
+    height: 100px;
+    background: rgb(153, 92, 0);
+    rotate: 135deg;
+    position: relative;
+    bottom: 2670px;
+    left: 380px;
+}
+#rayo1{
+    width: 10px;
+    height: 50px;
+    background: yellow;
+    rotate: 45deg;
+    position: relative;
+    bottom: 3220px;
+    left: 1280px;
+    border: 2px solid black;
+}
+#rayo2{
+    width: 10px;
+    height: 50px;
+    background: yellow;
+    position: relative;
+    bottom: 3230px;
+    left: 1350px;
+    border: 2px solid black;
+}
+#rayo3{
+    width: 10px;
+    height: 50px;
+    background: yellow;
+    rotate: 90deg;
+    position: relative;
+    bottom: 3370px;
+    left: 1250px;
+    border: 2px solid black;
+}

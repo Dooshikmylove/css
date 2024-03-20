@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box; 
+}
+div{width: 200px ;
+    height: 200px;
+background: rgb(76, 76, 228);
+border: 3px solid black;
+margin: 20px;
+display: inline-block;
+border-radius: 10px 10px 10px 10px; 
+box-shadow: 0 5px 10px;
+}
+.relativo{
+    background: rgba(255, 0, 0, 0.5);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.absoluto{
+    background: rgba(165, 42, 42, 0.66);
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+.fixed{
+    background: rgba(44, 165, 42, 0.66);
+    position: fixed;
+    left: 100px;
+    right: 100px;
+}
